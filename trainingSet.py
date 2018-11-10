@@ -1,3 +1,19 @@
+import hashlib
+import urllib
+
+import imageio
+from pylab import *
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cbook as cbook
+import random
+import time
+from scipy.misc import *
+import matplotlib.image as mpimg
+import os
+from scipy.ndimage import filters
+
+
 FILE_NAME = 'this_thing.html'
 TRAINING_SET_OUTPUT_DIR = 'training_data'
 
@@ -29,10 +45,20 @@ def preProcessRows():
                     f2.write(tail)
                 l = []
 
-            if cnt < 300:
+            if cnt > 3000:
                 break
+
+
+def processImage(img):
+    img_arr = imageio.imread("tset12.html.pdf.jpg")
+    img_arr = img_arr[0:300, 0:300]
+    img_arr = imresize(img_arr, dsize=(227, 227))
+    imageio.imwrite(
+        "test.jpg",
+        img_arr
+    )
 
 
 
 if __name__ == '__main__':
-    preProcessRows()
+    processImage(None)

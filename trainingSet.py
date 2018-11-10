@@ -16,6 +16,7 @@ tail = '''
 </html>
 '''
 
+
 def preProcessRows():
     with open(FILE_NAME, 'r') as f:
         l = []
@@ -27,6 +28,10 @@ def preProcessRows():
                     f2.writelines(l)
                     f2.write(tail)
                 l = []
+
+            if cnt < 300:
+                break
+
 
 
 if __name__ == '__main__':

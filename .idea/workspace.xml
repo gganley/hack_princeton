@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94ea0510-90e6-4beb-805a-59db74e2ac10" name="Default Changelist" comment="Added trainingset.py">
+      <change afterPath="$PROJECT_DIR$/.idea/hack_princeton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caffe_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/caffe_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/faces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myalexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/myalexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slurp.py" beforeDir="false" afterPath="$PROJECT_DIR$/slurp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/this_thing.html" beforeDir="false" afterPath="$PROJECT_DIR$/this_thing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainingSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset1.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset10.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset100.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset101.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset101.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset102.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset102.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset103.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset103.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset104.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset104.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset105.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset105.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset106.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset106.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset107.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset107.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset108.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset108.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset109.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset109.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset11.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset110.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset110.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset111.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset111.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset112.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset112.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset113.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset113.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset114.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset114.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset115.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset115.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset116.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset116.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset117.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset117.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset118.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset118.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset119.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset119.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset12.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset120.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset120.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset121.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset121.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset122.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset122.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset123.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset124.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset124.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset125.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset125.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset126.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset126.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset127.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset127.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset128.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset128.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset129.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset129.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset13.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset130.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset130.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset131.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset131.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset132.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset132.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset133.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset133.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset134.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset134.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset135.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset135.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset136.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset136.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset137.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset137.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset138.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset138.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset139.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset139.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset14.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset140.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset140.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset141.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset141.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset142.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset142.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset143.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset143.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset144.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset144.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset145.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset145.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset146.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset146.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset147.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset147.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset148.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset148.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset149.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset149.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset15.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset150.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset150.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset151.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset151.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset152.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset152.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset153.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset153.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset154.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset154.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset155.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset155.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset156.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset156.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset157.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset157.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset158.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset158.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset159.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset159.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset16.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset160.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset160.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset161.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset161.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset162.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset162.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset163.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset163.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset164.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset164.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset165.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset165.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset166.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset166.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset167.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset167.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset168.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset168.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset169.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset169.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset17.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset170.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset170.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset171.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset171.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset172.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset172.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset173.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset173.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset174.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset174.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset175.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset175.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset176.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset176.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset177.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset177.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset178.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset178.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset179.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset179.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset18.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset180.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset180.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset181.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset181.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset182.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset182.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset183.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset183.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset184.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset184.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset185.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset185.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset186.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset186.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset187.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset187.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset188.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset188.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset189.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset189.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset19.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset190.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset190.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset191.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset191.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset192.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset192.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset193.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset193.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset194.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset194.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset195.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset195.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset196.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset196.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset197.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset197.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset198.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset198.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset199.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset199.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset2.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset20.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset200.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset201.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset201.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset202.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset202.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset203.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset203.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset204.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset204.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset205.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset205.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset206.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset206.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset207.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset207.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset208.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset208.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset209.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset209.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset21.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset210.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset210.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset211.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset211.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset212.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset212.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset213.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset213.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset214.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset214.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset215.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset215.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset216.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset216.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset217.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset217.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset218.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset218.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset219.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset219.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset22.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset220.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset220.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset221.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset221.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset222.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset222.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset223.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset223.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset224.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset224.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset225.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset225.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset226.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset226.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset227.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset227.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset228.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset228.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset229.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset229.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset23.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset230.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset230.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset231.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset231.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset232.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset232.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset233.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset233.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset234.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset234.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset235.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset235.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset236.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset236.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset237.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset237.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset238.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset238.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset239.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset239.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset24.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset240.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset241.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset241.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset242.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset242.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset243.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset243.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset244.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset244.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset245.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset245.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset246.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset246.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset247.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset247.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset248.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset248.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset249.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset249.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset25.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset250.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset250.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset251.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset251.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset252.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset252.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset253.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset253.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset254.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset254.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset255.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset255.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset256.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset256.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset257.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset257.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset258.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset258.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset259.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset259.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset26.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset26.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset260.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset260.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset261.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset261.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset262.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset262.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset263.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset263.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset264.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset264.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset265.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset265.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset266.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset266.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset267.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset267.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset268.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset268.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset269.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset269.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset27.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset27.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset270.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset270.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset271.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset271.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset272.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset272.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset273.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset273.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset274.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset274.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset275.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset275.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset276.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset276.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset277.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset277.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset278.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset278.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset279.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset279.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset28.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset28.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset280.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset280.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset281.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset281.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset282.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset282.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset283.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset283.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset284.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset284.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset285.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset285.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset286.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset286.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset287.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset287.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset288.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset288.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset289.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset289.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset29.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset290.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset290.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset291.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset291.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset292.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset292.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset293.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset293.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset294.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset294.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset295.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset295.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset296.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset296.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset297.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset297.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset298.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset298.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset299.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset299.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset3.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset30.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset300.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset300.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset31.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset32.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset32.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset33.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset33.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset34.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset34.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset35.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset35.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset36.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset36.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset37.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset37.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset38.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset39.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset4.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset40.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset41.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset41.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset42.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset42.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset43.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset43.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset44.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset44.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset45.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset45.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset46.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset46.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset47.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset47.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset48.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset48.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset49.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset49.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset5.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset50.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset50.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset51.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset51.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset52.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset52.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset53.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset53.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset54.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset54.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset55.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset55.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset56.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset56.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset57.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset57.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset58.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset58.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset59.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset59.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset6.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset60.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset60.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset61.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset61.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset62.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset62.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset63.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset63.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset64.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset65.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset65.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset66.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset66.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset67.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset67.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset68.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset68.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset69.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset69.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset7.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset70.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset70.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset71.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset71.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset72.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset72.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset73.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset73.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset74.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset74.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset75.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset75.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset76.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset76.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset77.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset77.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset78.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset78.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset79.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset79.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset8.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset80.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset80.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset81.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset81.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset82.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset82.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset83.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset83.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset84.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset84.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset85.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset85.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset86.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset86.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset87.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset87.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset88.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset88.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset89.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset89.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset9.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset90.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset90.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset91.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset91.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset92.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset92.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset93.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset93.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset94.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset94.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset95.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset95.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset96.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset96.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset97.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset98.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset98.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data/tset99.html" beforeDir="false" afterPath="$PROJECT_DIR$/training_data/tset99.html" afterDir="false" />
+    </list>
+    <list id="73cc2583-6506-49a6-ba8e-760b09389237" name="Default" comment="">
+      <change afterPath="$USER_HOME$/Downloads/P2/test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hack_princeton$trainingSet.coverage" NAME="trainingSet Coverage Results" MODIFIED="1541889899938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hack_princeton$server.coverage" NAME="server Coverage Results" MODIFIED="1541867826700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-824189647">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="11" />
+          <entry key="http" value="1" />
+          <entry key="jpg" value="28" />
+          <entry key="json" value="1" />
+          <entry key="py" value="22" />
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="11" />
+          <entry key="Image" value="28" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="22" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="12" />
+          <entry key="faces" value="1" />
+          <entry key="html" value="3" />
+          <entry key="json" value="18" />
+          <entry key="py" value="1596" />
+          <entry key="sh" value="2" />
+          <entry key="txt" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="18" />
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="Python" value="1597" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tset12.html.pdf.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trainingSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1541889983145" expanded="true" signature="1008:1389" ph="..." />
+                <marker date="1541889983145" expanded="true" signature="1060:1389" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/py36/Lib/site-packages/imageio/core/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="272" selection-start-line="272" selection-end-line="272" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/auth.json" />
+        <option value="$PROJECT_DIR$/server/server.py" />
+        <option value="$PROJECT_DIR$/myalexnet.py" />
+        <option value="$PROJECT_DIR$/MakeTrainingSEt.py" />
+        <option value="$PROJECT_DIR$/super_cool_script.sh" />
+        <option value="$PROJECT_DIR$/this_thing.html" />
+        <option value="$PROJECT_DIR$/get_data.py" />
+        <option value="$PROJECT_DIR$/trainingSet.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hack_princeton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hack_princeton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hack_princeton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hack_princeton" type="462c0819:PsiDirectoryNode" />
+              <item name="training_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/P2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hongy\PycharmProjects\hack_princeton" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hongy\PycharmProjects\hack_princeton" />
+      <recent name="C:\Users\hongy\PycharmProjects\hack_princeton\server" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/hack_princeton.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/other.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.trainingSet">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="hack_princeton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hack_princeton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainingSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hack_princeton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainingSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.trainingSet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.trainingSet" />
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\hongy\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\hongy\Downloads\P2" />
+          <option name="myCopyRoot" value="C:\Users\hongy\Downloads\P2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\hongy\Downloads\P2" />
+          <option name="myCopyRoot" value="C:\Users\hongy\Downloads\P2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94ea0510-90e6-4beb-805a-59db74e2ac10" name="Default Changelist" comment="" />
+      <created>1541818197380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541818197380</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added trainingset.py">
+      <created>1541884666316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541884666316</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added trainingset.py">
+      <created>1541889466410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541889466410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26559356" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4976526" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.28772637" side_tool="true" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.71227366" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.43201134" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="337" height="637" id="Documentation" order="5" side_tool="true" weight="0.32997987" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added trainingset.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added trainingset.py" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.requestline</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.headers</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.\</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.raw_requestline</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.path</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/http/server.py" />
+    <entry file="file://$PROJECT_DIR$/auth.json" />
+    <entry file="file://$PROJECT_DIR$/server/server.py" />
+    <entry file="file://$PROJECT_DIR$/caffe_classes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset318.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset325.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset3165.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="33" selection-start-line="26" selection-start-column="15" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/super_cool_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset10.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset100.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset102.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset104.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset106.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset108.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1042.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1048.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1079.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1244.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1259.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1272.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1284.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1296.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1312.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1327.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1339.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1352.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2699">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blank.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/this_thing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548590">
+          <caret line="32270" column="89" selection-start-line="32270" selection-start-column="89" selection-end-line="32270" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slurp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myalexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tset1.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset10.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset11.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset12.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_data/tset12.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tset12.html.pdf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/py36/Lib/site-packages/imageio/core/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainingSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1541889983145" expanded="true" signature="1008:1389" ph="..." />
+            <marker date="1541889983145" expanded="true" signature="1060:1389" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

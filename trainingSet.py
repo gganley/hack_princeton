@@ -16,7 +16,7 @@ from scipy.ndimage import filters
 
 FILE_NAME = 'this_thing.html'
 TRAINING_SET_OUTPUT_DIR = 'training_data'
-
+IMAGE_SET_OUTPUT_DIR = "training_images"
 header = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -50,13 +50,14 @@ def preProcessRows():
 
 
 def processImage(img):
-    img_arr = imageio.imread("tset12.html.pdf.jpg")
-    img_arr = img_arr[0:300, 0:300]
-    img_arr = imresize(img_arr, dsize=(227, 227))
-    imageio.imwrite(
-        "test.jpg",
-        img_arr
-    )
+    for i in range(1, 301):
+        img_arr = imageio.imread(TRAINING_SET_OUTPUT_DIR + "/tset" + str(i) + ".html.pdf.jpg")
+        img_arr = img_arr[0:300, 0:300]
+        img_arr = imresize(img_arr, 227/300, 'nearest')
+        imageio.imwrite(
+            IMAGE_SET_OUTPUT_DIR + "/tset" + str(i) + "_cropped.html.pdf.jpg",
+            img_arr
+        )
 
 
 

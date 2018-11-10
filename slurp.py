@@ -12,3 +12,28 @@ def replace_sub_with(fragments):
         return '<img src="https://static-cdn.jtvnw.net/emoticons/v1/' + fragments[0].get('emoticon').get('emoticon_id') + '/1.0"> ' + replace_sub_with(fragments[1:])
     else:
         return fragments[0].get("text") + " " + replace_sub_with(fragments[1:])
+
+
+def run_thing():
+    data = []
+    with open("/Users/gganley/Downloads/imaqtpie/v333193994.json", "r") as read_file:
+        data = json.load(read_file)
+    this_data = []
+    test = ""
+    for x in data.get('comments'):
+        this_data.append(x['message']['fragments'])
+
+    for x in this_data:
+        test += "<p>" + replace_sub_with(x) + "</p>\n"
+    with open('/Users/gganley/this_thing.html', 'w') as write_file:
+        write_file.write("""
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+""" + test + """
+</body>
+</html>""")

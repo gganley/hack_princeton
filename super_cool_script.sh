@@ -1,1 +1,5 @@
-gs -dNOPAUSE -sDEVICE=jpeg -r144 -sOutputFile=p%03d.jpg tset1197.html.pdf
+for file in training_data/*.html.pdf
+do 
+  echo "$file"
+  gs -sDEVICE=jpeg -q -o $file.jpg "$file"
+done
